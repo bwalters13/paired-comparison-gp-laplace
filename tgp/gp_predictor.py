@@ -6,7 +6,7 @@ from autograd.scipy.stats import norm
 from tgp.prepare_data import prepare_vectors
 from sksparse.cholmod import cholesky
 from tgp.kernel import Kernel
-from autograd.scipy.misc import logsumexp
+from scipy.special import logsumexp
 
 
 def is_sorted(l):
